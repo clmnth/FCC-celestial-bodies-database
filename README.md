@@ -12,10 +12,10 @@ The following tasks have been completed in this project:
 - Added tables named galaxy, star, planet, and moon
 - Added a primary key to each table that automatically increments
 - Each table has a "name" column
-- Used the INT data type for at least two columns that are not a primary or foreign key
-- Used the NUMERIC data type at least once
-- Used the TEXT data type at least once
-- Used the BOOLEAN data type on at least two columns
+- Used the `INT` data type for at least two columns that are not a primary or foreign key
+- Used the `NUMERIC` data type at least once
+- Used the `TEXT` data type at least once
+- Used the `BOOLEAN` data type on at least two columns
 - Each "star" has a foreign key that references one of the rows in the galaxy table
 - Each "planet" has a foreign key that references one of the rows in the star table
 - Each "moon" has a foreign key that references one of the rows in the planet table
@@ -26,10 +26,10 @@ The following tasks have been completed in this project:
 - The moon table has at least 20 rows
 - Each table has at least three columns
 - The galaxy, star, planet, and moon tables each have at least five columns
-- At least two columns per table should not accept NULL values
-- At least one column from each table is required to be UNIQUE
-- All columns named "name" are of type VARCHAR
-- Each primary key column follows the naming convention table_name_id
+- At least two columns per table should not accept `NULL` values
+- At least one column from each table is required to be `UNIQUE`
+- All columns named "name" are of type `VARCHAR`
+- Each primary key column follows the naming convention `table_name_id`
 - Each foreign key column has the same name as the column it is referencing
 
 ## Credits
